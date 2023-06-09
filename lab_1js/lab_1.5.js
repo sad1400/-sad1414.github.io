@@ -1,27 +1,12 @@
-'use strict';
-
-let num = +prompt("Введите число");
-let num1 = ("dog dog dog cat cat dog");
-let num2 = ("dog dog cat cat dog dog");
-let num3 = ("dog cat cat dog dog dog");
-let num4 = ("cat cat dog dog dog cat");
-let num5 = ("cat dog dog dog cat cat");
-let num0 = 1;
-do {
-  if (num0 % 5 == 1){
-    console.log(num1)
-  }
-  if (num0 % 5 == 2){
-    console.log(num2)
-  }
-  if (num0 % 5 == 3){
-    console.log(num3)
-  }
-  if (num0 % 5 == 4){
-    console.log(num4)
-  }
-  if (num0 % 5 == 0){
-    console.log(num5)
-  }
-  num0 = num0 + 1;
-} while (num0 <= num)
+  "use strict"
+        "use strict";
+        let n = prompt("Введите число строк");
+        let s1 = "dog dog dog cat cat dog";
+        let s2 = "dog dog cat cat dog dog";
+        let s3 = "dog cat cat dog dog dog";
+        let s4 = "cat cat dog dog dog cat";
+        let s5 = "cat dog dog dog cat cat";
+        var str = [s1, s2, s3, s4, s5];
+        for (let i = 0; i < n; i++) {
+            console.log(str[i % 5]);
+        }
