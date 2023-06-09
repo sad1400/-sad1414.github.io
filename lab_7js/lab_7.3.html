@@ -2,18 +2,15 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Задание 3</title>
+    <meta charset="utf-8">
+    <title>textarea</title>
 </head>
 
 <body>
-  
-  <textarea id="area" autofocus></textarea>
-  <div id="view" class="view">ПИШИ</div>
+    <div>Место для записи</div>
 
-  <script>
-
-    'use strict';
+    <script>
+        'use strict';
         let text;
         document.addEventListener('keydown', function (event) {
             if (event.code == 'KeyE' && (event.ctrlKey || event.metaKey)) {
@@ -42,8 +39,7 @@
             }
         });
 
-  </script>
-
+    </script>
 </body>
 
 </html>
