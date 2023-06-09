@@ -11,7 +11,7 @@ obj.addClass = function addClass(cls) {
     this.className = arr.join(" ");
 }
 
-obj.addClass('hhgr86'); 
+obj.addClass('sad1400'); 
 obj.addClass('open'); 
 
 console.log(obj.className);
@@ -27,7 +27,7 @@ obj.removeClass = function removeClass(cls) {
     obj.className = arr.join(' ');
 }
 
-obj.removeClass('hhgr86'); 
-obj.removeClass('hhgr866');
+obj.removeClass('sad1400'); 
+obj.removeClass('sad14000');
 
 console.log(obj.className);
